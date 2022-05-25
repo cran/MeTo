@@ -7,9 +7,9 @@
 #' @param tl length of calculation period [hour] (1 for hourly, 0.5 for a 30-minute or 24 for daily period).
 #' Only needed if length of x is date-time object with length of 1.
 #' @param control list for control parameters and empirical factors defined in \code{\link{controlDefaults}} and \code{\link{constDefaults}} (see Details)
-#' @details \describe{\item{control:}{}
-#' \item{}{as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) }
-#' \item{}{bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
+#' @details \describe{\item{control:}{
+#' as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) \cr \cr
+#' bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
 #' \describe{\item{x:}{
 #' must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 #' All formats for which is.timepoint from the lubridate package returns TRUE can be used}}

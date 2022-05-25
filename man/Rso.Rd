@@ -4,8 +4,15 @@
 \alias{Rso}
 \title{Clear-sky solar radiation (Rso)}
 \usage{
-Rso(x, lat.rad = NULL, lat.deg = NULL, long.deg = NULL, elev, tl,
-  control = list(Lz = 345))
+Rso(
+  x,
+  lat.rad = NULL,
+  lat.deg = NULL,
+  long.deg = NULL,
+  elev,
+  tl,
+  control = list(Lz = 345)
+)
 }
 \arguments{
 \item{x}{date-time object or day of the year (must be date-time object if calculation period is shorter than a day)}
@@ -30,16 +37,16 @@ Clear-sky solar radiation for daily and shorter periods.
 \describe{\item{x:}{
 must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt, and Date objects).
 All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-\describe{\item{control:}{}
-\item{}{Lz:\cr
+\describe{\item{control:}{
+Lz:\cr
 longitude of the centre of the local time zone (degrees west of Greenhich)\cr
 - 0 for Greenwich\cr
 - 345 for Germany\cr
 - 330 for Cairo (Egypt)\cr
 - 255 for Bangkok (Thailand)\cr
 - 75, 90, 105 and 120 for Eastern, Central, Rocky Mountain and Pacific time zones (United States)\cr
-Lz is only needed if calculation period is shorter 1 day.}
-\item{}{for day, hour and shorter periods}}
+Lz is only needed if calculation period is shorter 1 day. \cr \cr
+for day, hour and shorter periods}}
 }
 \examples{
 # --------------------------------------------

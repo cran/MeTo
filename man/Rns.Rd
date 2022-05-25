@@ -18,8 +18,8 @@ Rns net solar or shortwave radiation [MJ/(m2 time)]
 Net shortwave radiation is the balance between incoming and reflected solar radiation.
 }
 \details{
-\describe{\item{control:}{}
-\item{}{albedo [-]: 0.23 for hypothetical grass and alfalfa reference crops used in the FAO-56 PM equations}}
+\describe{\item{control:}{
+albedo [-]: 0.23 for hypothetical grass and alfalfa reference crops used in the FAO-56 PM equations}}
 
 valid for daily and shorter periods
 }

@@ -21,11 +21,11 @@
 #' \describe{\item{x:}{
 #' must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 #' All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-#' \describe{\item{control:}{}
-#' \item{}{albedo: default 0.23 for the hypothetical grass and alfalfa reference crops used in
-#' the FAO-56 PM equations}
-#' \item{}{as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) }
-#' \item{}{bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
+#' \describe{\item{control:}{
+#' albedo: default 0.23 for the hypothetical grass and alfalfa reference crops used in
+#' the FAO-56 PM equations \cr \cr
+#' as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) \cr \cr
+#' bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
 #' @note eq. 40 of reference
 #' @seealso \code{\link{Rns}}, \code{\link{Rnl}}
 #' @return net radiation

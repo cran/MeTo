@@ -4,10 +4,27 @@
 \alias{ETref}
 \title{FAO-56 Penman-Monteith grass reference evapotranspiration}
 \usage{
-ETref(x, Tmax = NULL, Tmin = NULL, Rhmax = NULL, Rhmin = NULL,
-  Tmean = NULL, Rhmean = NULL, u = NULL, Rs = NULL, n = NULL,
-  P = NULL, elev, lat.rad = NULL, lat.deg = NULL, long.deg = NULL,
-  tl, G = NULL, actVP = NULL, control = list())
+ETref(
+  x,
+  Tmax = NULL,
+  Tmin = NULL,
+  Rhmax = NULL,
+  Rhmin = NULL,
+  Tmean = NULL,
+  Rhmean = NULL,
+  u = NULL,
+  Rs = NULL,
+  n = NULL,
+  P = NULL,
+  elev,
+  lat.rad = NULL,
+  lat.deg = NULL,
+  long.deg = NULL,
+  tl,
+  G = NULL,
+  actVP = NULL,
+  control = list()
+)
 }
 \arguments{
 \item{x}{date-time object or day of the year (must be date-time object if calculation period is shorter than a day)}

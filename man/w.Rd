@@ -17,8 +17,8 @@ w(x, long.deg, control = list(Lz = 345))
 Solar time angle at midpoint of the period (for periods < 1 day).
 }
 \details{
-\describe{\item{control:}{}
-\item{}{Lz: \cr
+\describe{\item{control:}{
+Lz: \cr
 longitude of the centre of the local time zone (degrees west of Greenwich) \cr
 - 0 for Greenwich \cr
 - 345 for Germany \cr

@@ -4,10 +4,24 @@
 \alias{Rn}
 \title{Net radiation (Rn)}
 \usage{
-Rn(x, Tmax = NULL, Tmin = NULL, Rhmax = NULL, Rhmin = NULL,
-  Rs = NULL, n = NULL, elev, lat.rad = NULL, lat.deg = NULL,
-  long.deg = NULL, Rhmean = NULL, actVP = NULL, Tmean = NULL, tl,
-  control = list())
+Rn(
+  x,
+  Tmax = NULL,
+  Tmin = NULL,
+  Rhmax = NULL,
+  Rhmin = NULL,
+  Rs = NULL,
+  n = NULL,
+  elev,
+  lat.rad = NULL,
+  lat.deg = NULL,
+  long.deg = NULL,
+  Rhmean = NULL,
+  actVP = NULL,
+  Tmean = NULL,
+  tl,
+  control = list()
+)
 }
 \arguments{
 \item{x}{date-time object or day of the year (must be date-time object if calculation period is shorter than a day)}
@@ -54,11 +68,11 @@ for daily and hourly calculations
 \describe{\item{x:}{
 must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-\describe{\item{control:}{}
-\item{}{albedo: default 0.23 for the hypothetical grass and alfalfa reference crops used in
-the FAO-56 PM equations}
-\item{}{as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) }
-\item{}{bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
+\describe{\item{control:}{
+albedo: default 0.23 for the hypothetical grass and alfalfa reference crops used in
+the FAO-56 PM equations \cr \cr
+as: regression constant, expressing fraction of extraterrestrial radiation reaching earth on overcast days (n = 0) (default = 0.25) \cr \cr
+bs: as + bs fraction of extraterrestrial radiation reaching earth on clear days (n = N) (default = 0.5)}}
 }
 \note{
 eq. 40 of reference

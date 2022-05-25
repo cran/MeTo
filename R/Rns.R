@@ -2,8 +2,8 @@
 #' @description Net shortwave radiation is the balance between incoming and reflected solar radiation.
 #' @param Rs incoming solar radiation [MJ/(m2 time)]
 #' @param control list for control parameters and empirical factors (see Details)
-#' @details \describe{\item{control:}{}
-#' \item{}{albedo [-]: 0.23 for hypothetical grass and alfalfa reference crops used in the FAO-56 PM equations}}
+#' @details \describe{\item{control:}{
+#' albedo [-]: 0.23 for hypothetical grass and alfalfa reference crops used in the FAO-56 PM equations}}
 #' @return Rns net solar or shortwave radiation [MJ/(m2 time)]
 #' @details valid for daily and shorter periods
 #' @note eq. 38 of reference

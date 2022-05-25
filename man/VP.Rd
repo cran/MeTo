@@ -4,9 +4,19 @@
 \alias{VP}
 \title{Actual vapor pressure}
 \usage{
-VP(Tmax = NULL, Tmin = NULL, Rhmax = NULL, Rhmin = NULL,
-  interval = "day", Tmean = NULL, Rhmean = NULL, Twet = NULL,
-  Tdry = NULL, apsy = NULL, P = NULL)
+VP(
+  Tmax = NULL,
+  Tmin = NULL,
+  Rhmax = NULL,
+  Rhmin = NULL,
+  interval = "day",
+  Tmean = NULL,
+  Rhmean = NULL,
+  Twet = NULL,
+  Tdry = NULL,
+  apsy = NULL,
+  P = NULL
+)
 }
 \arguments{
 \item{Tmax}{maximum temperature during 24-hour period (for daily values)}

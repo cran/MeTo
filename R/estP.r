@@ -4,12 +4,12 @@
 #' @param control list for control parameters and empirical factors defined in
 #'  \code{\link{controlDefaults}} and \code{\link{constDefaults}} (see Details)
 #' @return atmospheric pressure [kPa]
-#' @details \describe{\item{Control variables:}{}
-#' \item{}{Tko: reference temperature [degreeC] at elevation z0. Often assumed to be 20 degreeC}
-#' \item{}{z0: elevation at reference level [m]}
-#' \item{}{a1: constant lapse rate moist air (0.0065 [K/m])}
-#' \item{}{g: gravitational acceleration (9.807 [m/s2])}
-#' \item{}{R: specific gas constant (287 [J/(kg K)])}}
+#' @details \describe{\item{Control variables:}{
+#' Tko: reference temperature [degreeC] at elevation z0. Often assumed to be 20 degreeC \cr \cr
+#' z0: elevation at reference level [m] \cr \cr
+#' a1: constant lapse rate moist air (0.0065 [K/m]) \cr \cr
+#' g: gravitational acceleration (9.807 [m/s2]) \cr \cr
+#' R: specific gas constant (287 [J/(kg K)])}}
 #' @examples
 #' estP(elev = 25, control = list(Tko = 20))
 #' @export

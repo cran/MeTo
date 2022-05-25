@@ -12,8 +12,8 @@
 #' \describe{\item{x:}{
 #' must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 #' All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-#' \describe{\item{control:}{}
-#' \item{}{Lz (for periods < 1 day):\cr
+#' \describe{\item{control:}{
+#' Lz (for periods < 1 day):\cr
 #' longitude of the centre of the local time zone (degrees west of Greenwich)\cr
 #' - 0 for Greenwich\cr
 #' - 345 for Germany\cr

@@ -4,9 +4,23 @@
 \alias{Rnl}
 \title{Net longwave radiation (Rnl)}
 \usage{
-Rnl(x, Tmax = NULL, Tmin = NULL, Rhmax = NULL, Rhmin = NULL,
-  Rs = NULL, lat.rad = NULL, lat.deg = NULL, long.deg = NULL, elev,
-  actVP = NULL, tl, Tmean = NULL, Rhmean = NULL, control = list())
+Rnl(
+  x,
+  Tmax = NULL,
+  Tmin = NULL,
+  Rhmax = NULL,
+  Rhmin = NULL,
+  Rs = NULL,
+  lat.rad = NULL,
+  lat.deg = NULL,
+  long.deg = NULL,
+  elev,
+  actVP = NULL,
+  tl,
+  Tmean = NULL,
+  Rhmean = NULL,
+  control = list()
+)
 }
 \arguments{
 \item{x}{date-time object or day of the year (must be date-time object if calculation period is shorter than a day)}

@@ -4,8 +4,13 @@
 \alias{satVP}
 \title{Saturation Vapor Pressure}
 \usage{
-satVP(Tmax = NULL, Tmin = NULL, Tmean = NULL, interval = "day",
-  print.warning = T)
+satVP(
+  Tmax = NULL,
+  Tmin = NULL,
+  Tmean = NULL,
+  interval = "day",
+  print.warning = T
+)
 }
 \arguments{
 \item{Tmax}{maximum temperature [degreeC] for daily, weekly, monthly periods}

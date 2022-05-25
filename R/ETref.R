@@ -1,3 +1,4 @@
+## ToDO: Fix tl input. Function is not working if tl is missing atm
 #' @title FAO-56 Penman-Monteith grass reference evapotranspiration
 #' @description FAO Penman-Monteith equations to compute grass reference evapotranspiration from weather data for daily, monthly, hourly or shorter periods.
 #' @param x date-time object or day of the year (must be date-time object if calculation period is shorter than a day)

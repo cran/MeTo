@@ -4,7 +4,8 @@
 \name{controlDefaults}
 \alias{controlDefaults}
 \title{Control default values}
-\format{albedo: 0.23 [-] for hypothetical grass and alfalfa reference crops used in
+\format{
+albedo: 0.23 [-] for hypothetical grass and alfalfa reference crops used in
 the FAO-56 PM equations (e.g. in \code{\link{ETref}}, \code{\link{Rn}} or \code{\link{estG}})  \cr \cr
 Po: atmospheric pressure at sea level (101.3 [kPa]) \cr \cr
 z0: elevation at reference level (0 [m]) (e.g. in \code{\link{ETref}} or \code{\link{estP}}) \cr \cr
@@ -25,7 +26,8 @@ the ratio Rs/Rso is set equal to the Rs/Rso calculated for a time period occurri
 If single values during nighttime are calculated Rs/Rso ratio 2-3 hours before sunset can not be calculated
 and an approximation is needed. Following Allen (1999) one can assume Rs/Rso = 0.4 to 0.6 during nighttime periods
 in humid and subhumid climates and Rs/Rso = 0.7 to 0.8 in arid and semiarid climates. A value of Rs/Rso = 0.3 presumes
-total cloud cover.}
+total cloud cover.
+}
 \usage{
 controlDefaults
 }

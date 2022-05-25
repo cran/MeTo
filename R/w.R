@@ -3,8 +3,8 @@
 #' @param x date-time object (e.g, POSIXct, POSIXlt or Date objects).
 #' @param long.deg longitude of the measurement site (degrees east of Greenwich) (for periods < 1 day)
 #' @param control list for control parameters and empirical factors (see Details)
-#' @details \describe{\item{control:}{}
-#' \item{}{Lz: \cr
+#' @details \describe{\item{control:}{
+#' Lz: \cr
 #' longitude of the centre of the local time zone (degrees west of Greenwich) \cr
 #' - 0 for Greenwich \cr
 #' - 345 for Germany \cr

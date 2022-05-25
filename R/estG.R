@@ -18,18 +18,20 @@
 #' \describe{\item{x:}{
 #' must be provided as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 #' All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-#' \describe{\item{control:}{}
-#' \item{}{albedo: default 0.23 for the hypothetical grass and alfalfa reference crops used in
-#' the FAO-56 PM equations}
-#' \item{}{Lz:\cr
+#' \describe{\item{control:}{
+#' albedo: \cr
+#' default 0.23 for the hypothetical grass and alfalfa reference crops used in \cr
+#' the FAO-56 PM equations \cr \cr
+#' Lz:\cr
 #' longitude of the centre of the local time zone (degrees west of Greenwich)\cr
 #' - 0 for Greenwich\cr
 #' - 345 for Germany\cr
 #' - 330 for Cairo (Egypt)\cr
 #' - 255 for Bangkok (Thailand)\cr
 #' - 75, 90, 105 and 120 for Eastern, Central, Rocky Mountain and Pacific time zones (United States)\cr
-#' Lz is only needed if calculation period is shorter 1 day.}
-#' \item{}{est.ratio.Rs.Rso: Rs/Rso is used to represent cloud cover. For hourly periods during the nighttime,
+#' Lz is only needed if calculation period is shorter 1 day. \cr \cr
+#' est.ratio.Rs.Rso: \cr
+#' Rs/Rso is used to represent cloud cover. For hourly periods during the nighttime,
 #' the ratio Rs/Rso is set equal to the Rs/Rso calculated for a time period occurring 2-3 hours before sunset.
 #' If single values during nighttime are calculated Rs/Rso ration 2-3 hours before sunset can not be calculated
 #' and an approximation is needed. Following Allen (1999) one can assume Rs/Rso = 0.4 to 0.6 during nighttime periods

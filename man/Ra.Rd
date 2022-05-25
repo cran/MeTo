@@ -4,8 +4,7 @@
 \alias{Ra}
 \title{Extraterrestrial radiation}
 \usage{
-Ra(x, lat.rad = NULL, lat.deg = NULL, long.deg, tl, control = list(Lz
-  = 345))
+Ra(x, lat.rad = NULL, lat.deg = NULL, long.deg, tl, control = list(Lz = 345))
 }
 \arguments{
 \item{x}{date-time object or day of the year (must be date-time object if calculation period is smaller 1 day)}
@@ -29,8 +28,8 @@ Extraterrestrial radiation [MJ/(m2 time)] in dependence to time, latitude and lo
 \describe{\item{x:}{
 must be provided as.numeric (1-366) or as a common date-time object (e.g, POSIXct, POSIXlt or Date objects).
 All formats for which is.timepoint from the lubridate package returns TRUE can be used}}
-\describe{\item{control:}{}
-\item{}{Lz (for periods < 1 day):\cr
+\describe{\item{control:}{
+Lz (for periods < 1 day):\cr
 longitude of the centre of the local time zone (degrees west of Greenwich)\cr
 - 0 for Greenwich\cr
 - 345 for Germany\cr
